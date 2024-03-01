@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="javaProject.userAdmin">
+  <grid id="27dc6" binding="userAdminPanel" layout-manager="GridLayoutManager" row-count="12" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="566" height="584"/>
+    </constraints>
+    <properties>
+      <background color="-2562323"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c83d5" class="javax.swing.JLabel" binding="heading">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Lucida Handwriting" size="30"/>
+          <foreground color="-16777216"/>
+          <text value="Click on the Icon"/>
+        </properties>
+      </component>
+      <component id="e604e" class="javax.swing.JLabel" binding="teamLabelIcon">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="javaProject/team (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9839b" class="javax.swing.JLabel" binding="adminIconLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="javaProject/administrator.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b4d13" class="javax.swing.JLabel" binding="adminPLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <text value="Enter Password"/>
+        </properties>
+      </component>
+      <component id="e9fdc" class="javax.swing.JPasswordField" binding="adminPasswordField">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3abaf" class="javax.swing.JLabel" binding="customerClick">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="18"/>
+          <text value="Click Here"/>
+        </properties>
+      </component>
+      <component id="e6290" class="javax.swing.JLabel" binding="adminClick">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <text value="Click Here"/>
+        </properties>
+      </component>
+      <vspacer id="f21a0">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="bfbe3">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="64655">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="616d2">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="31ab5" class="javax.swing.JLabel" binding="adminErrorLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9565d" class="javax.swing.JLabel" binding="adminResetLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="5fc29" class="javax.swing.JLabel" binding="teamResetLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <vspacer id="a54c">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="22093" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="20"/>
+          <foreground color="-45307"/>
+          <text value="VISITORS"/>
+        </properties>
+      </component>
+      <component id="3e615" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="20"/>
+          <foreground color="-45307"/>
+          <text value="ADMIN"/>
+        </properties>
+      </component>
+      <vspacer id="b199a">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="a33ad" class="javax.swing.JButton" binding="xButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2562323"/>
+          <font name="Wide Latin" size="14"/>
+          <foreground color="-2483685"/>
+          <text value="X"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

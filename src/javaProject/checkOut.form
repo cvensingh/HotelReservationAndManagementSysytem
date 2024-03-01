@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="javaProject.checkOut">
+  <grid id="27dc6" binding="checkOutPanel" layout-manager="GridLayoutManager" row-count="13" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="974" height="576"/>
+    </constraints>
+    <properties>
+      <background color="-2562323"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2832b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Enter Booking ID"/>
+        </properties>
+      </component>
+      <component id="d1ada" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Enter Contact Number"/>
+        </properties>
+      </component>
+      <component id="65284" class="javax.swing.JTextField" binding="bookingIdField">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="b5a91" class="javax.swing.JTextField" binding="contactNumberField">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="8db9d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="6260b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Mobile"/>
+        </properties>
+      </component>
+      <component id="61cc6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="CheckIn Date"/>
+        </properties>
+      </component>
+      <component id="5b0dc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="CheckOut Date"/>
+        </properties>
+      </component>
+      <component id="ce275" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Room Type"/>
+        </properties>
+      </component>
+      <component id="abbd3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Paid Amount"/>
+        </properties>
+      </component>
+      <component id="fe6da" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Inter Semi Bold" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Payable Amount"/>
+        </properties>
+      </component>
+      <component id="8fe87" class="javax.swing.JTextField" binding="nameField">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="ecde3" class="javax.swing.JTextField" binding="mobileField">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dca49" class="javax.swing.JTextField" binding="checkOutField">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="dbf94" class="javax.swing.JTextField" binding="paidField">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="abd0b" class="javax.swing.JTextField" binding="payAbleField">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="dcad" class="javax.swing.JTextField" binding="checkInField">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="6e735" class="javax.swing.JTextField" binding="roomTypeField">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1378049"/>
+          <font name="Inter" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <grid id="70386" binding="showPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="5" row-span="10" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2562323"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="5fd7a" binding="showBookingPanel" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2562323"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="cafae" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Inter Semi Bold" size="16" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Name"/>
+                </properties>
+              </component>
+              <component id="f4d19" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Inter Semi Bold" size="16" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Mobile"/>
+                </properties>
+              </component>
+              <component id="4e5e9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Inter Semi Bold" size="16" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="CheckIn Date"/>
+                </properties>
+              </component>
+              <component id="b52f7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Inter Semi Bold" size="16" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Room Type"/>
+                </properties>
+              </component>
+              <component id="537d4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Inter Semi Bold" size="16" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Paid Amount"/>
+                </properties>
+              </component>
+              <component id="91fe7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Inter Semi Bold" size="16" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Remain Amount"/>
+                </properties>
+              </component>
+              <component id="d66fc" class="javax.swing.JTextField" binding="showNameField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1378049"/>
+                  <font name="Inter" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="edf81" class="javax.swing.JTextField" binding="showMobField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1378049"/>
+                  <font name="Inter" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="b81c6" class="javax.swing.JTextField" binding="showPaidField">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1378049"/>
+                  <font name="Inter" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="f7c9" class="javax.swing.JTextField" binding="showPayableField">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1378049"/>
+                  <font name="Inter" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="2b199" class="javax.swing.JTextField" binding="showRoomTypeField">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1378049"/>
+                  <font name="Inter" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="62356" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Inter Semi Bold" size="16" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Adhar Number"/>
+                </properties>
+              </component>
+              <component id="cf1a1" class="javax.swing.JTextField" binding="showAdharField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1378049"/>
+                  <font name="Inter" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="98fa2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Inter Semi Bold" size="16" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Booked Room"/>
+                </properties>
+              </component>
+              <component id="721da" class="javax.swing.JTextField" binding="bookedRoomField">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1378049"/>
+                  <font name="Inter" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="6c84a" class="javax.swing.JTextField" binding="showCheckInField">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1378049"/>
+                  <font name="Inter" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="19cfd" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Inter Semi Bold" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Enter Booking ID"/>
+            </properties>
+          </component>
+          <component id="6e551" class="javax.swing.JTextField" binding="showBookingField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1378049"/>
+              <font name="Inter" size="14" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="2f74d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Inter Semi Bold" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Enter Contact Number"/>
+            </properties>
+          </component>
+          <component id="28cfc" class="javax.swing.JTextField" binding="showContField">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1378049"/>
+              <font name="Inter" size="14" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="6d436">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="4d6c3">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="eeef7">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="9555f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Calligraphy" size="22" style="1"/>
+          <foreground color="-14124569"/>
+          <text value="CHECKOUT HERE"/>
+        </properties>
+      </component>
+      <component id="67d5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Calligraphy" size="22" style="1"/>
+          <foreground color="-14124569"/>
+          <text value="GET YOUR BOOKING DETAILS"/>
+        </properties>
+      </component>
+      <component id="bb1e8" class="javax.swing.JButton" binding="checkOutButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15970722"/>
+          <font name="Inter Semi Bold" size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="CheckOut"/>
+        </properties>
+      </component>
+      <component id="fd7b9" class="javax.swing.JButton" binding="showButton">
+        <constraints>
+          <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15970722"/>
+          <font name="Inter Semi Bold" size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="Show"/>
+        </properties>
+      </component>
+      <component id="6cc0d" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15970722"/>
+          <font name="Inter Semi Bold" size="16" style="2"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="true"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="d201b" class="javax.swing.JLabel" binding="nullLabel">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

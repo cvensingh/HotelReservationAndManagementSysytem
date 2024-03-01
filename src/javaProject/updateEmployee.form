@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="javaProject.updateEmployee">
+  <grid id="27dc6" binding="updatePanel" layout-manager="GridLayoutManager" row-count="4" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1004" height="697"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="4625a" binding="employeePanel" layout-manager="GridLayoutManager" row-count="14" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2dec9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="empId"/>
+            </properties>
+          </component>
+          <component id="c3817" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="First Name"/>
+            </properties>
+          </component>
+          <component id="2c881" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Middle Name"/>
+            </properties>
+          </component>
+          <component id="6edde" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Last Name"/>
+            </properties>
+          </component>
+          <component id="8ccc8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Gender"/>
+            </properties>
+          </component>
+          <component id="d6d69" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Date of Birth"/>
+            </properties>
+          </component>
+          <component id="fc251" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Phone"/>
+            </properties>
+          </component>
+          <component id="43731" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Email"/>
+            </properties>
+          </component>
+          <component id="eec63" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Department"/>
+            </properties>
+          </component>
+          <component id="3f4f3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Salary"/>
+            </properties>
+          </component>
+          <component id="375a2" class="javax.swing.JTextField" binding="idField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="dba82" class="javax.swing.JTextField" binding="fNameField">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="ce11c" class="javax.swing.JTextField" binding="mNameField">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="2c430" class="javax.swing.JTextField" binding="lNameField">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="3e7fd" class="javax.swing.JRadioButton" binding="maleRadioBtn">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Male"/>
+            </properties>
+          </component>
+          <component id="24822" class="javax.swing.JRadioButton" binding="otherRadioBtn">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Others"/>
+            </properties>
+          </component>
+          <component id="56877" class="javax.swing.JRadioButton" binding="fRadioBtn">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Female"/>
+            </properties>
+          </component>
+          <component id="c295a" class="javax.swing.JTextField" binding="dobField">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="81782" class="javax.swing.JTextField" binding="phoneField">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="dc010" class="javax.swing.JTextField" binding="emailField">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="d1ad3" class="javax.swing.JTextField" binding="departmentField">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="fe2f9" class="javax.swing.JTextField" binding="salField">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <hspacer id="54707">
+            <constraints>
+              <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="3fce8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Join Date"/>
+            </properties>
+          </component>
+          <component id="84ae7" class="javax.swing.JTextField" binding="jDateField">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="3c09a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Adhaar Number"/>
+            </properties>
+          </component>
+          <component id="d1844" class="javax.swing.JTextField" binding="adhaarField">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="89672" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Address"/>
+            </properties>
+          </component>
+          <component id="b38d2" class="javax.swing.JTextField" binding="addressfield">
+            <constraints>
+              <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="94abb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="District"/>
+            </properties>
+          </component>
+          <component id="29587" class="javax.swing.JTextField" binding="distField">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="39183" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Pincode"/>
+            </properties>
+          </component>
+          <component id="fed7d" class="javax.swing.JTextField" binding="pinField">
+            <constraints>
+              <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="9ac5b" class="javax.swing.JComboBox" binding="stateBox">
+            <constraints>
+              <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+              <model>
+                <item value="---Select States---"/>
+                <item value="Andhra Pradesh"/>
+                <item value="Arunachal Pradesh"/>
+                <item value="Assam"/>
+                <item value="Bihar"/>
+                <item value="Chhattisgarh"/>
+                <item value="Goa"/>
+                <item value="Gujarat"/>
+                <item value="Haryana"/>
+                <item value="Himachal Pradesh"/>
+                <item value="Jharkhand"/>
+                <item value="Karnataka"/>
+                <item value="Kerala"/>
+                <item value="Madhya Pradesh"/>
+                <item value="Maharashtra"/>
+                <item value="Manipur"/>
+                <item value="Meghalaya"/>
+                <item value="Mizoram"/>
+                <item value="Nagaland"/>
+                <item value="Odisha"/>
+                <item value="Punjab"/>
+                <item value="Rajasthan"/>
+                <item value="Sikkim"/>
+                <item value="Tamil Nadu"/>
+                <item value="Telangana"/>
+                <item value="Tripura"/>
+                <item value="Uttarakhand"/>
+                <item value="Uttar Pradesh"/>
+                <item value="West Bengal"/>
+              </model>
+            </properties>
+          </component>
+          <component id="771d1" class="javax.swing.JLabel" binding="stateField">
+            <constraints>
+              <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="State"/>
+            </properties>
+          </component>
+          <component id="5217b" class="javax.swing.JLabel" binding="countryField">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Country"/>
+            </properties>
+          </component>
+          <component id="a9b0c" class="javax.swing.JComboBox" binding="countryBox">
+            <constraints>
+              <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="1"/>
+              <model>
+                <item value="---Select Country---"/>
+                <item value="Bharat"/>
+                <item value="Other"/>
+              </model>
+            </properties>
+          </component>
+          <vspacer id="869ac">
+            <constraints>
+              <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="f7c69">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="a759b" class="javax.swing.JLabel" binding="backBtn">
+            <constraints>
+              <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16777216"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="88731" class="javax.swing.JLabel" binding="updateButton">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-16713395"/>
+              <text value="Update"/>
+            </properties>
+          </component>
+          <vspacer id="3cfe8">
+            <constraints>
+              <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <component id="cb247" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <text value="Enter Employee ID"/>
+        </properties>
+      </component>
+      <component id="e97c6" class="javax.swing.JTextField" binding="idTextField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+        </properties>
+      </component>
+      <component id="3f7bd" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <foreground color="-16777216"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="95ce5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans" size="35" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=" EMPLOYEE DETAILS"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
